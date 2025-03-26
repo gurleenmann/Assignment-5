@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>National Historic Sites <img src="/images/image.png" alt="Canadian Flag" class="w-16 h-10">
+    </title>
+    <link href="/css/main.css" rel="stylesheet">
+</head>
+<body class="bg-base-200">
+    <%- include('partials/navbar', { page: '/home' }) %>
+
+
+    <section class="container mx-auto p-8">
+        <div
+  class="hero min-h-[300px]"
+  style="background-image: url(https://th.bing.com/th/id/OIP.dD_QiuXFENQ97j2p3HJ4XwHaE8?rs=1&pid=ImgDetMain);">
+  <div class="hero-overlay bg-opacity-60"></div>
+  <div class="hero-content text-neutral-content text-center">
+    <div class="max-w-md">
+      <h1 class="mb-5 text-5xl font-bold">WELCOME!</h1>
+      <p class="mb-5">
+        Browse National Historic Sites located across ten provinces and three territories of Canada.
+      </p>
+      <a href="/sites" class="btn btn-primary">Get Started</a>
+      
+    </div>
+  </div>
+</div>
+
+ 
+<div class="flex gap-4 overflow-x-auto flex-nowrap p-4">
+    <div class="card card-compact bg-base-100 w-auto max-w-sm shadow-xl rounded-lg">
+        <figure>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Bay-Street-Armoury%2C-Victoria.jpg/320px-Bay-Street-Armoury%2C-Victoria.jpg" alt="Site 1" class="rounded-t-lg">
+        </figure>
+        <h2 class="text-xl font-bold">Bay Street Drill Hall</h2>
+        <p>A two-storey drill hall with Tudor Revival elements, built during the 1896 to 1918 period when over 100 drill halls and armouries were erected across Canada; its scale reflects the dramatic increase in military participation following Canada's performance during the Second Boer War.</p>
+        <p><strong>Location:</strong> Victoria, BC</p>
+        <p><strong>Date:</strong> 1815</p>
+        <a href="/sites/ON001" class="btn btn-secondary">Learn More</a>
+    </div>
+
+    <div class="card card-compact bg-base-100 w-auto max-w-sm shadow-xl rounded-lg">
+        <figure>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Royal_Alexandra_Theatre_%288028082171%29.jpg/305px-Royal_Alexandra_Theatre_%288028082171%29.jpg" alt="Site 2" class="rounded-t-lg">
+        </figure>
+        <h2 class="text-xl font-bold">Royal Alexandra Theatre</h2>
+        <p>One of the last theatres of its type built in Canada and arguably the best surviving example, it is a nationally significant theatre that has played a central role in the social and cultural life of Toronto</p>
+        <p><strong>Location:</strong> Toronto, Ontario</p>
+        <p><strong>Date:</strong> 1907</p>
+        <a href="/sites/AB002" class="btn btn-secondary">Learn More</a>
+    </div>
+
+    <div class="card card-compact bg-base-100 w-auto max-w-sm shadow-xl rounded-lg">
+        <figure>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Gur_Sikh_Temple_01.jpg/320px-Gur_Sikh_Temple_01.jpg" alt="Site 3" class="rounded-t-lg">
+        </figure>
+        <h2 class="text-xl font-bold mt-2">Abbotsford Sikh Temple</h2>
+        <p>The oldest surviving Sikh temple in Canada; the Temple played an important role in the first phase of Sikh immigration to Canada, and represents an adaptation of Sikh religious traditions to Canadian architectural norms of the early 20th century</p>
+        <p><strong>Location:</strong> Abbotsford, BC</p>
+        <p><strong>Date:</strong> 1912</p>
+        <a href="/sites/BC003" class="btn btn-secondary">Learn More</a>
+    </div>
+</div>
+    </section>
+</body>
+</html>
